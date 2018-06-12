@@ -20,4 +20,5 @@ oracledb.getConnection(
                 if (err) { console.error(err); return; }
                 console.log(result.rows);
             });
-    });
+    }
+);
