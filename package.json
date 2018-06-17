@@ -4,12 +4,16 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
   },
   "author": "Giovani Silva",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^5.0.1",
     "oracledb": "^2.2.0"
+  },
+  "engine": {
+    "node": "8.9.1"
   }
 }
